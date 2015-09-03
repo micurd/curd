@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'curd_Example', :exclusive => true do
+  pod "curd", :path => "../"
+end
+
+target 'curd_Tests', :exclusive => true do
+  pod "curd", :path => "../"
+
+  
+end
