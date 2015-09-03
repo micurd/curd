@@ -1,0 +1,14 @@
+PODS:
+  - curd (0.1.0)
+
+DEPENDENCIES:
+  - curd (from `../`)
+
+EXTERNAL SOURCES:
+  curd:
+    :path: ../
+
+SPEC CHECKSUMS:
+  curd: 6d135f351350ca60759a3ab45384b27b615f2475
+
+COCOAPODS: 0.38.2
