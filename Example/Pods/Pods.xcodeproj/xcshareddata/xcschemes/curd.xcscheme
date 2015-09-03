@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FA75B03E34F4E9B3C6F458A"
+               BlueprintIdentifier = "21FB7A736086C69E03631C4E"
                BuildableName = "curd.framework"
                BlueprintName = "curd"
                ReferencedContainer = "container:Pods.xcodeproj">

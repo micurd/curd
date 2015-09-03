@@ -1,9 +1,9 @@
 {
   "name": "curd",
   "version": "0.1.0",
-  "summary": "A short description of curd.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/curd",
+  "summary": "A sublcass on UILabel that provides a blink",
+  "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
+  "homepage": "https://github.com/micurd/curd",
   "license": "MIT",
   "authors": {
     "mac1228": "mac1228@gmail.com"

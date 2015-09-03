@@ -11,31 +11,31 @@
 		29D3C51F360928C02796677A2F3234B8 /* curd.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF454777CBF5C0A88C06BCD3D1BBC6F1 /* curd.bundle */; };
 		390C4A1CC99F7108E94D771A6AB8B08C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9B7BA4039AFC03D66CA633696029B0 /* Foundation.framework */; };
 		794B1F35F2FADE1E6FEF0CFBF55DBE2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9B7BA4039AFC03D66CA633696029B0 /* Foundation.framework */; };
-		8801687AC3848D7A1B060D49669B9608 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44792F6D29CFB7B20E10749A4414803 /* ReplaceMe.swift */; };
 		9043B580063F35DD13AD66A7EDD67FD7 /* curd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8F362C958FF2135B60108D10DCAFD9 /* curd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACF2AD569144A901D1BC6901F497551A /* Pods-curd_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 347A408A3E7F54B5AB7D22B1E01B1DC2 /* Pods-curd_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFAAC74A46193CAC795B66D63AAAE158 /* curd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB46287090A570394CD4D46EA3B7C6A /* curd-dummy.m */; };
+		BA4A2293FF0F1043C512A2FB2B7B3C69 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37716453F05C23F14D7FF5BD435ABA8B /* BlinkingLabel.swift */; };
 		C72E3FED9BF63DBC932537BF416EE09A /* Pods-curd_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79810C2382EAC9170DB0563EB34215CF /* Pods-curd_Tests-dummy.m */; };
 		D8107EE427F1DC66306C3C19F293FE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9B7BA4039AFC03D66CA633696029B0 /* Foundation.framework */; };
-		EA774D37E11BB867E634791F409C261B /* curd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27720775C1098EB347A1B04FCB6AEC60 /* curd-dummy.m */; };
 		F73DE5DCC64525C438D633A50DC4C935 /* Pods-curd_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C03595E6CC4481FB24C1B191C761DCB8 /* Pods-curd_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C00422C8AF4F24D38FEE3907D16B081 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5946C9F19D102C9E0D5EBAC63F982235;
-			remoteInfo = "curd-curd";
-		};
-		27E67DC75D288C3B994C1759533892A0 /* PBXContainerItemProxy */ = {
+		094D2DA5139AD9F74CB6DBAB051C3FBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D8CA986346F2556E56A2EC1BA49EE70C;
 			remoteInfo = curd;
 		};
-		67249618E147578302BB6A89B3FF1196 /* PBXContainerItemProxy */ = {
+		6A819F227B1E5E12E154164CD8FEEE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5946C9F19D102C9E0D5EBAC63F982235;
+			remoteInfo = "curd-curd";
+		};
+		FF88E9A98111FD3D3631D2733E168F0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -49,14 +49,15 @@
 		109AAC45DE144ADF9D73C3BF8D2A4F98 /* Pods-curd_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-curd_Example-frameworks.sh"; sourceTree = "<group>"; };
 		18EAE78F032C234553324315A288A672 /* Pods-curd_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-curd_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24EA9878EBBC9C997CFED9853BE391BB /* curd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = curd.modulemap; sourceTree = "<group>"; };
-		27720775C1098EB347A1B04FCB6AEC60 /* curd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "curd-dummy.m"; sourceTree = "<group>"; };
 		2A52DB0D0B34A52AD89F2F82475CF8CF /* Pods-curd_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-curd_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3394447427DFF6757DBBC31132F01ECF /* Pods-curd_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-curd_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		347A408A3E7F54B5AB7D22B1E01B1DC2 /* Pods-curd_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-curd_Tests-umbrella.h"; sourceTree = "<group>"; };
+		37716453F05C23F14D7FF5BD435ABA8B /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
 		39783AA30BF589FA1DC02CAE8C0A5CD2 /* curd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "curd-prefix.pch"; sourceTree = "<group>"; };
 		3A347C1EE34A514F4D584F6F86A031AD /* Pods_curd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_curd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B74A6FF369C25D489B3E8AED53A61C7 /* Pods-curd_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-curd_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5DBE35BC146D32DA5DBF47183CD1604A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB46287090A570394CD4D46EA3B7C6A /* curd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "curd-dummy.m"; sourceTree = "<group>"; };
 		6F243A8E4F8A89A14FB0C95D8278DAE8 /* Pods-curd_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-curd_Tests-resources.sh"; sourceTree = "<group>"; };
 		72F246AD68A18A880E1DE7A15B2599F9 /* Pods-curd_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-curd_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		79810C2382EAC9170DB0563EB34215CF /* Pods-curd_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-curd_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C03595E6CC4481FB24C1B191C761DCB8 /* Pods-curd_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-curd_Example-umbrella.h"; sourceTree = "<group>"; };
 		C7FB2E03ACF7AD875AC30B0450E0CB2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D44792F6D29CFB7B20E10749A4414803 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		DF454777CBF5C0A88C06BCD3D1BBC6F1 /* curd.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = curd.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1872EAF0610CEC67CD048E14A778807 /* curd-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "curd-Private.xcconfig"; sourceTree = "<group>"; };
 		E2F2CE7127401FE50E88328911164217 /* Pods-curd_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-curd_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -125,14 +125,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		25DB4C6A205A4EAEC7BEA239A9CD0BBE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D44792F6D29CFB7B20E10749A4414803 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		47E7B1A4587B40BDCB763D7274704E53 /* Pods-curd_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +157,14 @@
 				924D7F3E2DE4520C262414BB63E5A9F0 /* curd */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		61782695E630FA3890774D93A17D1C4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37716453F05C23F14D7FF5BD435ABA8B /* BlinkingLabel.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		748766626C3DD47E8EA8C6EBF90F1414 /* Pods-curd_Tests */ = {
@@ -209,7 +209,7 @@
 		A65BE1827BDDDD2727D52DE8D97FB5E5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				25DB4C6A205A4EAEC7BEA239A9CD0BBE /* Classes */,
+				61782695E630FA3890774D93A17D1C4B /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 				24EA9878EBBC9C997CFED9853BE391BB /* curd.modulemap */,
 				A49A71AE0F44A7C4EC944905EADBAA86 /* curd.xcconfig */,
 				E1872EAF0610CEC67CD048E14A778807 /* curd-Private.xcconfig */,
-				27720775C1098EB347A1B04FCB6AEC60 /* curd-dummy.m */,
+				6DB46287090A570394CD4D46EA3B7C6A /* curd-dummy.m */,
 				39783AA30BF589FA1DC02CAE8C0A5CD2 /* curd-prefix.pch */,
 				7B8F362C958FF2135B60108D10DCAFD9 /* curd-umbrella.h */,
 			);
@@ -289,7 +289,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B51A5BC7B0FF9B415F9AFEC35BB74DFF /* PBXTargetDependency */,
+				0F25C29F0E9F499F269EB337FDD0F393 /* PBXTargetDependency */,
 			);
 			name = "Pods-curd_Tests";
 			productName = "Pods-curd_Tests";
@@ -324,7 +324,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				805988A37C5890E25BC8C5D96B19C0A3 /* PBXTargetDependency */,
+				943D45DB7164942605E12F0FB928EF8E /* PBXTargetDependency */,
 			);
 			name = "Pods-curd_Example";
 			productName = "Pods-curd_Example";
@@ -335,7 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21A086BC48843FCE493ACEAE731B91F /* Build configuration list for PBXNativeTarget "curd" */;
 			buildPhases = (
-				B16152020AEFE2576DCA7905AA321401 /* Sources */,
+				A00270CADF3E31C27FD7A38433465228 /* Sources */,
 				32788D168ADFC21F70E277CE4E277D8E /* Frameworks */,
 				2CC0FDDE4523F7C8C407CC64D78D8458 /* Resources */,
 				49DDCACAA6BDD64383A382D280BA9687 /* Headers */,
@@ -343,7 +343,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				020A593C54448EA44E36D2577F88FF7E /* PBXTargetDependency */,
+				DCB9530E6E3078D01CAA4DD6E9BBE98A /* PBXTargetDependency */,
 			);
 			name = curd;
 			productName = curd;
@@ -405,20 +405,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A00270CADF3E31C27FD7A38433465228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4A2293FF0F1043C512A2FB2B7B3C69 /* BlinkingLabel.swift in Sources */,
+				AFAAC74A46193CAC795B66D63AAAE158 /* curd-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A53B6CBC7304833EDFFCB4F605CB7C7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				264D6EC02D1EE1FFD3305A64307C1954 /* Pods-curd_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B16152020AEFE2576DCA7905AA321401 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8801687AC3848D7A1B060D49669B9608 /* ReplaceMe.swift in Sources */,
-				EA774D37E11BB867E634791F409C261B /* curd-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +433,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		020A593C54448EA44E36D2577F88FF7E /* PBXTargetDependency */ = {
+		0F25C29F0E9F499F269EB337FDD0F393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = curd;
+			target = D8CA986346F2556E56A2EC1BA49EE70C /* curd */;
+			targetProxy = FF88E9A98111FD3D3631D2733E168F0C /* PBXContainerItemProxy */;
+		};
+		943D45DB7164942605E12F0FB928EF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = curd;
+			target = D8CA986346F2556E56A2EC1BA49EE70C /* curd */;
+			targetProxy = 094D2DA5139AD9F74CB6DBAB051C3FBB /* PBXContainerItemProxy */;
+		};
+		DCB9530E6E3078D01CAA4DD6E9BBE98A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "curd-curd";
 			target = 5946C9F19D102C9E0D5EBAC63F982235 /* curd-curd */;
-			targetProxy = 0C00422C8AF4F24D38FEE3907D16B081 /* PBXContainerItemProxy */;
-		};
-		805988A37C5890E25BC8C5D96B19C0A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = curd;
-			target = D8CA986346F2556E56A2EC1BA49EE70C /* curd */;
-			targetProxy = 67249618E147578302BB6A89B3FF1196 /* PBXContainerItemProxy */;
-		};
-		B51A5BC7B0FF9B415F9AFEC35BB74DFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = curd;
-			target = D8CA986346F2556E56A2EC1BA49EE70C /* curd */;
-			targetProxy = 27E67DC75D288C3B994C1759533892A0 /* PBXContainerItemProxy */;
+			targetProxy = 6A819F227B1E5E12E154164CD8FEEE6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
